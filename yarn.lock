@@ -5344,7 +5344,7 @@ trim-newlines@^2.0.0:
   resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-2.0.0.tgz#b403d0b91be50c331dfc4b82eeceb22c3de16d20"
   integrity sha1-tAPQuRvlDDMd/EuC7s6yLD3hbSA=
 
-truffle-hdwallet-provider@1.0.13:
+truffle-hdwallet-provider@^1.0.13:
   version "1.0.13"
   resolved "https://registry.yarnpkg.com/truffle-hdwallet-provider/-/truffle-hdwallet-provider-1.0.13.tgz#be0d9338cc60da7d6419a5fc0f02f0d42e7e2ef9"
   integrity sha512-I4qkKKl8ikwrCjOuTU1YBltcAWWffy4cnVH9QpVGEqTjArYPk40HWzwr4vcfr+nPNBlYyTyMUEbGt+4iouLznQ==
@@ -5354,10 +5354,10 @@ truffle-hdwallet-provider@1.0.13:
     web3 "1.0.0-beta.37"
     websocket "^1.0.28"
 
-truffle@5.0.24:
-  version "5.0.24"
-  resolved "https://registry.yarnpkg.com/truffle/-/truffle-5.0.24.tgz#5cbba0bb280a2907529e9b71b9444f064c649262"
-  integrity sha512-a7sAi7S3s82+qQBstGJzEUE09QjJLRlY00ITrK4N4Qfzgje3thUA2nIGl2uExdD07w6bUZBOLWW9eoCVwps1Eg==
+truffle@5.0.26:
+  version "5.0.26"
+  resolved "https://registry.yarnpkg.com/truffle/-/truffle-5.0.26.tgz#cb9a6dcd77501821ba6e8ba51b2d4eef58da7458"
+  integrity sha512-gf3Khot59ZM2Tegqb2md0lpr1SXGUHKJkSajCyXsiFCiiHUbX6NpXn/mgJgk1SXt7FAHpL0zYdLI1pYfqzvBFw==
   dependencies:
     app-module-path "^2.2.0"
     mocha "5.2.0"
