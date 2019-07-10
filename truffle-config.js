@@ -22,12 +22,12 @@
  *
  */
 
-const fs = require('fs');
+// const fs = require('fs');
 // eslint-disable-next-line import/no-extraneous-dependencies
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
 const infuraKey = 'fj4jll3k.....';
-const mnemonic = fs.readFileSync('.secret').toString().trim();
+const mnemonic = ''; // fs.readFileSync('.secret').toString().trim();
 
 module.exports = {
     /**
