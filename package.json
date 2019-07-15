@@ -41,12 +41,12 @@
         "eslint-plugin-import": "2.18.0",
         "eslint-plugin-jsx-a11y": "6.2.3",
         "eslint-plugin-react": "7.14.2",
-        "eth-gas-reporter": "0.2.3",
+        "eth-gas-reporter": "0.2.4",
         "ethlint": "1.2.4",
-        "ganache-cli": "6.4.4",
+        "ganache-cli": "6.4.5",
         "soldoc": "0.1.0",
-        "solidity-coverage": "0.6.0-beta.5",
-        "truffle": "5.0.26",
-        "truffle-hdwallet-provider": "1.0.13"
+        "solidity-coverage": "0.6.2",
+        "truffle": "5.0.27",
+        "truffle-hdwallet-provider": "1.0.14"
     }
 }
