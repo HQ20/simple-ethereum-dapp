@@ -1,6 +1,9 @@
 # simple-ethereum-dapp
 
-This is the simple ethereum dapp template.
+[![Build Status](https://travis-ci.com/HQ20/simple-ethereum-dapp.svg?branch=master)](https://travis-ci.com/HQ20/simple-ethereum-dapp)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=HQ20/simple-ethereum-dapp)](https://dependabot.com)
+
+:herb: This is the techhq simple ethereum dapp in a github template :octocat: All you need in a nut:shell:
 
 This template is based on a truffle project structure, having the **contracts**, **migrations** and **test** folder as usual, as well as the **truffle-config.js** file. Besides that, this template is packed with an example smart contract with an example of a test including coverage. It also contains linters for javascript and solidity, plus a script to run tests.
 
