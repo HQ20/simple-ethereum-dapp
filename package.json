@@ -47,6 +47,6 @@
         "soldoc": "0.1.1-beta.2",
         "solidity-coverage": "0.6.3",
         "truffle": "5.0.28",
-        "truffle-hdwallet-provider": "1.0.14"
+        "truffle-hdwallet-provider": "1.0.15"
     }
 }
