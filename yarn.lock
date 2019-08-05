@@ -1405,7 +1405,7 @@ debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "^2.1.1"
 
-debuglog@*, debuglog@^1.0.1:
+debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/debuglog/-/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
   integrity sha1-qiT/uaw9+aI1GDfPstJ5NgzXhJI=
@@ -3119,10 +3119,10 @@ he@1.1.1:
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
   integrity sha1-k0EP0hsAlzUVH4howvJx80J+I/0=
 
-highlight.js@9.15.8:
-  version "9.15.8"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.8.tgz#f344fda123f36f1a65490e932cf90569e4999971"
-  integrity sha512-RrapkKQWwE+wKdF73VsOa2RQdIoO3mxwJ4P8mhbI6KYJUraUHRKM5w5zQQKXNk0xNL4UVRdulV9SBJcmzJNzVA==
+highlight.js@9.15.9:
+  version "9.15.9"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.9.tgz#865257da1dbb4a58c4552d46c4b3854f77f0e6d5"
+  integrity sha512-M0zZvfLr5p0keDMCAhNBp03XJbKBxUx5AfyfufMdFMEP4N/Xj6dh0IqC75ys7BAzceR34NgcvXjupRVaHBPPVQ==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -3267,7 +3267,7 @@ import-lazy@^2.1.0:
   resolved "https://registry.yarnpkg.com/import-lazy/-/import-lazy-2.1.0.tgz#05698e3d45c88e8d7e9d92cb0584e77f096f3e43"
   integrity sha1-BWmOPUXIjo1+nZLLBYTnfwlvPkM=
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
@@ -4145,11 +4145,6 @@ lockfile@^1.0.4:
   dependencies:
     signal-exit "^3.0.2"
 
-lodash._baseindexof@*:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/lodash._baseindexof/-/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
-  integrity sha1-/lK1OhxnYeQmGNZU5KJXie1hgiw=
-
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash._baseuniq/-/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -4158,32 +4153,10 @@ lodash._baseuniq@~4.6.0:
     lodash._createset "~4.0.0"
     lodash._root "~3.0.0"
 
-lodash._bindcallback@*:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
-  integrity sha1-5THCdkTPi1epnhftlbNcdIeJOS4=
-
-lodash._cacheindexof@*:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/lodash._cacheindexof/-/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
-  integrity sha1-PcaayCSY0u5ePOVgkbr9Ktx73pI=
-
-lodash._createcache@*:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/lodash._createcache/-/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
-  integrity sha1-VtagZAF2JeeevKa4AY4XRAvc8JM=
-  dependencies:
-    lodash._getnative "^3.0.0"
-
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
   integrity sha1-D0ZZ+7CddRlPqeK4imZE02PJ/iY=
-
-lodash._getnative@*, lodash._getnative@^3.0.0:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
-  integrity sha1-VwvH3t5G1hzc3mh9ZdPuy6o6r/U=
 
 lodash._root@~3.0.0:
   version "3.0.1"
@@ -4194,11 +4167,6 @@ lodash.clonedeep@^4.5.0, lodash.clonedeep@~4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
-
-lodash.restparam@*:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
-  integrity sha1-k2pOMJ7zMKdkXtQUWYbIWuWyCAU=
 
 lodash.toarray@^4.4.0:
   version "4.4.0"
@@ -5594,14 +5562,14 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-pdf-from-html@0.1.0-beta.5:
-  version "0.1.0-beta.5"
-  resolved "https://registry.yarnpkg.com/pdf-from-html/-/pdf-from-html-0.1.0-beta.5.tgz#f75ba591f71718deab8e180995329d951a6a4309"
-  integrity sha512-q1UNAU3AUOfu5LKNLESItYxvupycnZrZo1U40kMVNCT3FavSF70qrcElP6wBhQdbGlRHPRmhEGkLJ8WlkDiXSA==
+pdf-from-html@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/pdf-from-html/-/pdf-from-html-0.1.1.tgz#ef9dcab54bc46cbf52ef29f61ef7ae2a991326b8"
+  integrity sha512-1fo/6ZPLucsogIfBzxmt+dd2eA7E8pZNFpFcYCLn53lv5/BB28sGW/qZQdsrRMhZngcKLtKBdXdoKCuawl42Bw==
   dependencies:
     meow "5.0.0"
     mustache "3.0.1"
-    puppeteer "1.18.1"
+    puppeteer "1.19.0"
 
 pdf-to-text@0.0.7:
   version "0.0.7"
@@ -5828,10 +5796,10 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer@1.18.1:
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-1.18.1.tgz#4a66f3bdab01115ededf70443ec904c99917a815"
-  integrity sha512-luUy0HPSuWPsPZ1wAp6NinE0zgetWtudf5zwZ6dHjMWfYpTQcmKveFRox7VBNhQ98OjNA9PQ9PzQyX8k/KrxTg==
+puppeteer@1.19.0:
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-1.19.0.tgz#e3b7b448c2c97933517078d7a2c53687361bebea"
+  integrity sha512-2S6E6ygpoqcECaagDbBopoSOPDv0pAZvTbnBgUY+6hq0/XDFDOLEMNlHF/SKJlzcaZ9ckiKjKDuueWI3FN/WXw==
   dependencies:
     debug "^4.1.0"
     extract-zip "^1.6.6"
@@ -6726,10 +6694,10 @@ socks@~2.3.2:
     ip "^1.1.5"
     smart-buffer "4.0.2"
 
-sol-comments-parser@0.1.0-beta.1:
-  version "0.1.0-beta.1"
-  resolved "https://registry.yarnpkg.com/sol-comments-parser/-/sol-comments-parser-0.1.0-beta.1.tgz#38fb99d86edfee484fe7feb42393eb3f9c70c8f2"
-  integrity sha512-WLL5Ps1MJvyRjnskKTH1XESoo1RnMK1DjOjR3h9o93dWzXZU2ToVvqo8W4H4eMJAwvm4Z8yO1JBe2qAKnBnWQg==
+sol-comments-parser@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/sol-comments-parser/-/sol-comments-parser-0.1.1.tgz#33ec5236ad590e0055f5244c33cd2f33c915c94f"
+  integrity sha512-yhY5ROFCF0hlKXQn47PB112YMlC/cyVNI7a+o3H6HSJkTg2fFHxiaYDp3mZvirdFn9KUF9bx3rTcFKrWMv8kvw==
 
 sol-digger@0.0.2:
   version "0.0.2"
@@ -6746,22 +6714,22 @@ sol-explore@^1.6.2:
   resolved "https://registry.yarnpkg.com/sol-explore/-/sol-explore-1.6.2.tgz#43ae8c419fd3ac056a05f8a9d1fb1022cd41ecc2"
   integrity sha1-Q66MQZ/TrAVqBfip0fsQIs1B7MI=
 
-soldoc@0.1.1-beta.2:
-  version "0.1.1-beta.2"
-  resolved "https://registry.yarnpkg.com/soldoc/-/soldoc-0.1.1-beta.2.tgz#68b34bc6de245761a143d6a9c3d9bdc987298363"
-  integrity sha512-kOnubciuK+612yHYMOwGc2TYFovZvoKvCc5lYHOYd837dEVPZ8Y9X998XHLKOidxTLKIeMykkhV7Gk1zsCqmGQ==
+soldoc@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/soldoc/-/soldoc-0.1.1.tgz#8aac3f26ac54784fb98426c87794ba8492692a89"
+  integrity sha512-Ee63KOrCOZyiuLtCd3JjHGKu6uUqTxIdRvLcdOCevhBXe4ngDXIP6L5pt1QmOIYMbt379JDOYipoREjrRjJwsg==
   dependencies:
     chalk "2.4.2"
-    highlight.js "9.15.8"
+    highlight.js "9.15.9"
     markdown-it "9.0.1"
     markdown-it-emoji "1.4.0"
     meow "5.0.0"
     mustache "3.0.1"
     node-emoji "1.10.0"
-    pdf-from-html "0.1.0-beta.5"
+    pdf-from-html "0.1.1"
     pdf-to-text "0.0.7"
-    sol-comments-parser "0.1.0-beta.1"
-    solidity-parser-antlr "0.4.6"
+    sol-comments-parser "0.1.1"
+    solidity-parser-antlr "0.4.7"
 
 solidity-coverage@0.6.3:
   version "0.6.3"
@@ -6780,14 +6748,7 @@ solidity-coverage@0.6.3:
     web3 "1.0.0-beta.50"
     web3-eth-abi "1.0.0-beta.50"
 
-solidity-parser-antlr@0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/solidity-parser-antlr/-/solidity-parser-antlr-0.4.6.tgz#78c4b01a005d061a7b7d87b176913a489df2236d"
-  integrity sha512-UDLJL9AZ6um1rmy1vmcb2/JUaqhetj2bzhrAUxmmb7GdYa3xP2xvyhRgx0J3PaRnCYtImrDgpfkUy0oHRsbr2w==
-  dependencies:
-    npm-check-updates "^3.1.11"
-
-solidity-parser-antlr@^0.4.2, solidity-parser-antlr@^0.4.7:
+solidity-parser-antlr@0.4.7, solidity-parser-antlr@^0.4.2, solidity-parser-antlr@^0.4.7:
   version "0.4.7"
   resolved "https://registry.yarnpkg.com/solidity-parser-antlr/-/solidity-parser-antlr-0.4.7.tgz#8e18867c95a956958ed008371e43f9e571dee6af"
   integrity sha512-iVjNhgqkXw+o+0E+xoLcji+3KuXLe8Rm8omUuVGhsV14+ZsTwQ70nhBRXg8O3t9xwdS0iST1q9NJ5IqHnqpWkA==

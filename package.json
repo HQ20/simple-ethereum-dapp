@@ -44,7 +44,7 @@
         "eth-gas-reporter": "0.2.9",
         "ethlint": "1.2.4",
         "ganache-cli": "6.5.1",
-        "soldoc": "0.1.1-beta.2",
+        "soldoc": "0.1.1",
         "solidity-coverage": "0.6.3",
         "truffle": "5.0.30",
         "truffle-hdwallet-provider": "1.0.15"
