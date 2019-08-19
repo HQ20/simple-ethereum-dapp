@@ -43,7 +43,7 @@
         "eslint-plugin-react": "7.14.3",
         "eth-gas-reporter": "0.2.10",
         "ethlint": "1.2.4",
-        "ganache-cli": "6.5.1",
+        "ganache-cli": "6.6.0",
         "soldoc": "0.1.1",
         "solidity-coverage": "0.6.4",
         "truffle": "5.0.32",
