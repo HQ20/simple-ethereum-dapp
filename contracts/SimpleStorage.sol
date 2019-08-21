@@ -10,7 +10,14 @@ import "@openzeppelin/contracts/math/SafeMath.sol";
 contract SimpleStorage {
     using SafeMath for uint256;
 
-    uint256 storedData;
+    uint256 private storedData;
+
+    /**
+     * constructor method setting an initial value
+     */
+    constructor() public {
+        storedData = 5;
+    }
 
     /**
      * @dev Set the number to be saved.
