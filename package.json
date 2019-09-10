@@ -46,7 +46,7 @@
         "ganache-cli": "6.6.0",
         "soldoc": "0.1.1",
         "solidity-coverage": "0.6.4",
-        "truffle": "5.0.34",
+        "truffle": "5.0.35",
         "truffle-hdwallet-provider": "1.0.17"
     }
 }
