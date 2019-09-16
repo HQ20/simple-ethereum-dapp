@@ -45,7 +45,7 @@
         "ethlint": "1.2.4",
         "ganache-cli": "6.6.0",
         "soldoc": "0.1.1",
-        "solidity-coverage": "0.6.5",
+        "solidity-coverage": "0.6.7",
         "truffle": "5.0.35",
         "truffle-hdwallet-provider": "1.0.17"
     }
