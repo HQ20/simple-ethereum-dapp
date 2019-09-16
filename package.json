@@ -36,17 +36,17 @@
     "devDependencies": {
         "bignumber.js": "9.0.0",
         "chai": "4.2.0",
-        "eslint": "6.3.0",
+        "eslint": "6.4.0",
         "eslint-config-airbnb": "17.1.1",
         "eslint-plugin-import": "2.18.2",
         "eslint-plugin-jsx-a11y": "6.2.3",
         "eslint-plugin-react": "7.14.3",
         "eth-gas-reporter": "0.2.11",
-        "ethlint": "1.2.4",
+        "ethlint": "1.2.5",
         "ganache-cli": "6.6.0",
         "soldoc": "0.1.1",
         "solidity-coverage": "0.6.7",
-        "truffle": "5.0.35",
+        "truffle": "5.0.36",
         "truffle-hdwallet-provider": "1.0.17"
     }
 }

@@ -1993,10 +1993,10 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.3.0.tgz#1f1a902f67bfd4c354e7288b81e40654d927eb6a"
-  integrity sha512-ZvZTKaqDue+N8Y9g0kp6UPZtS4FSY3qARxBs7p4f0H0iof381XHduqVerFWtK8DPtKmemqbqCFENWSQgPR/Gow==
+eslint@6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.4.0.tgz#5aa9227c3fbe921982b2eda94ba0d7fae858611a"
+  integrity sha512-WTVEzK3lSFoXUovDHEbkJqCVPEPwbhCq4trDktNI6ygs7aO41d4cDT0JFAT5MivzZeVLWlg7vHL+bgrQv/t3vA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -2218,10 +2218,10 @@ ethjs-util@0.1.6:
     is-hex-prefixed "1.0.0"
     strip-hex-prefix "1.0.0"
 
-ethlint@1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/ethlint/-/ethlint-1.2.4.tgz#c264ae20d22529f3b0199979a17d76b6c00e474e"
-  integrity sha512-T0STudObqyISj6QbRo+an240GgWHyt3G1cHnk4jbVdEiesLSMyTybv4Eo7U8mT4OpIQHFsC4YEWw6iKMjeHzqQ==
+ethlint@1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/ethlint/-/ethlint-1.2.5.tgz#375b77d1e5971e7c574037e07ff7ddad8e17858f"
+  integrity sha512-x2nKK98zmd72SFWL3Ul1S6scWYf5QqG221N6/mFNMO661g7ASvTRINGIWVvHzsvflW6y4tvgMSjnTN5RCTuZug==
   dependencies:
     ajv "^5.2.2"
     chokidar "^1.6.0"
@@ -7055,10 +7055,10 @@ truffle-hdwallet-provider@1.0.17:
     web3 "1.2.1"
     websocket "^1.0.28"
 
-truffle@5.0.35:
-  version "5.0.35"
-  resolved "https://registry.yarnpkg.com/truffle/-/truffle-5.0.35.tgz#5c93522c3a0915567b2e5c7811934e0ee6e8a2bd"
-  integrity sha512-ewJPaeHyYgRpuVSvlzhlnalJkeLN0sz7c/P/8WLWpXC966M2o4vL5ov6MNdSHQFYiYQsDrCetrothzsYsg4HWQ==
+truffle@5.0.36:
+  version "5.0.36"
+  resolved "https://registry.yarnpkg.com/truffle/-/truffle-5.0.36.tgz#ca8361be8e62cc351c42867d7e25fd66a1541f96"
+  integrity sha512-lcEFJYf+HzdGsIp+YS9g5mSW1wpKlkBfqu/DHFUmbzvTPV5nxKXkKCYlwWjo20lNAOBTErFtwNpw4+EOaBJVRA==
   dependencies:
     app-module-path "^2.2.0"
     mocha "5.2.0"
