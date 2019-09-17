@@ -2148,10 +2148,10 @@ eth-lib@^0.1.26:
     ws "^3.0.0"
     xhr-request-promise "^0.1.2"
 
-ethereumjs-testrpc-sc@^6.5.1-sc.0:
-  version "6.5.1-sc.0"
-  resolved "https://registry.yarnpkg.com/ethereumjs-testrpc-sc/-/ethereumjs-testrpc-sc-6.5.1-sc.0.tgz#c5986af4548776ebea35581ae6ae2518afb72faa"
-  integrity sha512-ZWhg3Rd64hAWSMM7DygDs7wITH9hDYPCvFypHkiLTiKu42wfl6QVJtkouelhtdyufzv2TFe7Lo0uOWS9NEiOqw==
+ethereumjs-testrpc-sc@6.5.1-sc.1:
+  version "6.5.1-sc.1"
+  resolved "https://registry.yarnpkg.com/ethereumjs-testrpc-sc/-/ethereumjs-testrpc-sc-6.5.1-sc.1.tgz#514020faa813d9f5cb9ae13739de7c8704ff0ec2"
+  integrity sha512-DPBwpMFFH5DTXicYjLLdTq6VLnD8p4oo5QfC9EmRKLzDsWRNXDhA9cgcdUZhhXuPM+mVAem7Q+o3Y3CQ5f+FKA==
   dependencies:
     ethereumjs-util "6.1.0"
     source-map-support "0.5.12"
@@ -6482,13 +6482,13 @@ soldoc@0.1.1:
     sol-comments-parser "0.1.1"
     solidity-parser-antlr "0.4.7"
 
-solidity-coverage@0.6.5:
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/solidity-coverage/-/solidity-coverage-0.6.5.tgz#fca177678e6553d3069a5ca5826f32c1749c13bd"
-  integrity sha512-iQjJ6aQGKkcUKZoljihKuPexFGC0FAZ9KBxwhtvZqaKmtXWUdCaAocuFVPm9r6vCEe7yfWIKKP4692TdTsbfBA==
+solidity-coverage@0.6.7:
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/solidity-coverage/-/solidity-coverage-0.6.7.tgz#8ccd5e6d4d4ecc8cc59baf3656a869762d73c079"
+  integrity sha512-Ga0Er5b25sFhy1uaYrQ+jQisP9819nj3zP1pfyAfE8Skg+/OBQ+Ev3sOmYQy9qZMjDuFJ7PCjuFVXdqdBO3cZw==
   dependencies:
     death "^1.1.0"
-    ethereumjs-testrpc-sc "^6.5.1-sc.0"
+    ethereumjs-testrpc-sc "6.5.1-sc.1"
     istanbul "^0.4.5"
     keccakjs "^0.2.1"
     req-cwd "^1.0.1"
